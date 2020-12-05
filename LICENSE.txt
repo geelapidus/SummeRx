@@ -1,0 +1,11 @@
+SummeRx framework for REXX in z/OS, ver 2.01. Sailpoint Technologies,   
+www.sailpoint.com                                                       
+--------------------------------------------------------------------    
+2018-2020. Author: Gennady Lapidus, summerexx@gmail.com                 
+This program is free software: you can redistribute it and/or modify    
+it under the terms of the APACHE LICENSE 2.0.                           
+This program is distributed in the hope that it will be useful,         
+but WITHOUT ANY WARRANTY; without even the implied warranty of          
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                    
+For more details see the APACHE LICENSE 2.0 by                          
+<http://www.apache.org/licenses/LICENSE-2.0>                            
