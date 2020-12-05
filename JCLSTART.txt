@@ -1,0 +1,18 @@
+//TLVGLRST JOB  ...                        
+//TRS      EXEC PGM=TRSMAIN,PARM=UNPACK,COND=(0,NE)                     
+//SYSPRINT DD SYSOUT=*                                                  
+//INFILE   DD DISP=SHR,DSN=TLVGL.SUMRX.V201.TRS                         
+//OUTFILE  DD DSN=TLVGL.SUMRX.V201.DUMP,                                
+//         DISP=(NEW,CATLG),                                            
+//         SPACE=(TRK,(800),RLSE)                                       
+//STEP1   EXEC PGM=ADRDSSU,REGION=6M                                    
+//SYSPRINT  DD SYSOUT=*                                                 
+//INDD      DD DISP=(OLD,DELETE),DSN=TLVGL.SUMRX.V201.DUMP              
+//*OUTDD     DD UNIT=3390,DISP=OLD,VOL=SER=<TARGET VOLUME>              
+//SYSIN     DD *                                                        
+    RESTORE  -                                                          
+            INDDNAME(INDD)                                     -        
+  /*        OUTDDNAME(OUTDD) -  NOT NEEDED IF SMS ACS ... */   -        
+            DATASET(INCLUDE(**))                               -        
+  /*        RENAMEU(YOUR_HLQ)    */                            -        
+            CATALOG                                                     
