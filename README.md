@@ -5,7 +5,7 @@
 <b>SummeRx</b> offers improvements to bypass known limitations of REXX and enrich its functionality. 
 <ul>
 <li>With <b>SummeRx</b> you can pass stems to an external routine using PROCEDURE EXPOSE.
-<li><b>SummeRx</b> provides dynamic modularity using pseudo code.
+<li><b>SummeRx</b> provides dynamic modularity using its pseudo code.
 <li>Now you can use HEAP and OOP elements in your regular REXX procedures.
 <li>With <b>SummeRx</b> HEAP services you can implement a provider-consumer scheme in your regular REXX procedures.
 <li>And more other things ...
